@@ -1,0 +1,15 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.description {
+    padding: 20px;
+}
+
+.nav-link {
+    transition: transform 0.3s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+} 
