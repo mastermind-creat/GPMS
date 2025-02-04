@@ -1,0 +1,94 @@
+/* Custom Animations */
+.animate__animated {
+    opacity: 0;
+}
+
+.animate__fadeInDown {
+    animation: fadeInDown 1s ease-out forwards;
+}
+
+.animate__fadeInUp {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.animate__fadeInLeft {
+    animation: fadeInLeft 1s ease-out forwards;
+}
+
+.animate__fadeInRight {
+    animation: fadeInRight 1s ease-out forwards;
+}
+
+.animate__bounceIn {
+    animation: bounceIn 1s ease-out forwards;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #007bff, #00bfff);
+    padding: 100px 0;
+}
+
+/* Features Section */
+.features-section .card {
+    transition: transform 0.3s ease;
+}
+
+.features-section .card:hover {
+    transform: translateY(-10px);
+}

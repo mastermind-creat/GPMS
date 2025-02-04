@@ -1,0 +1,34 @@
+/* Login Section */
+.login-section {
+    background: linear-gradient(135deg, #007bff, #00bfff);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-section .card {
+    border: none;
+    border-radius: 10px;
+}
+
+.login-section .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.login-section .btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.login-section .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* QR Code Scanner */
+#qr-scanner {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
